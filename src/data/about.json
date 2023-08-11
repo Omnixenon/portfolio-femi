@@ -1,0 +1,63 @@
+{
+  "headline": "The entity BlackGospel is an full-stack web developer offering web-design, web-applications, creative development services in ReactJS.",
+  "content": "Experienced JavaScript Developer with 5+ years in the industry. Proficient with React. Used problem-solving aptitude to create web applications and enhance application performance by 14%. Created data visualization tools and pixel-perfect designs. Increased speed of product lifecycle and 100% of the time delivered projects within deadline. Seeking opportunties to leverage experience with JavaScript to impress existing clients and obtain new ones.",
+  "services": [
+    {
+      "id": 0,
+      "title": "Technologies",
+      "results": [
+        "ReactJS",
+        "NextJS",
+        "HTML/CSS/JS",
+        "ES6",
+        "Redux",
+        "Zustand",
+        "MUI/Chakra/Mantine",
+        "Typescript",
+        "Tailwind",
+        "SASS"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Design",
+      "results": [
+        "User Stories",
+        "Creative Design",
+        "Templating",
+        "UI/UX Design",
+        "Figma",
+        "Adobe XD"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Development",
+      "results": [
+        "Creative Development",
+        "Copywrite",
+        "Storyboarding",
+        "Creative Direction",
+        "Pixel Perfect",
+        "User Journey",
+        "Dashboarding solutions",
+        "Portals",
+        "Admin Dashboards",
+        "CMS"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hosting",
+      "results": [
+        "NextJS",
+        "Vercel",
+        "Custom domains",
+        "Heroku",
+        "Digital Ocean",
+        "Go Daddy",
+        "AWS Services"
+      ]
+    }
+  ]
+}

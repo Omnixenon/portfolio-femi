@@ -1,0 +1,22 @@
+{
+  "testimonials": [
+    {
+      "id": "8d7dc53a-4273-41d8-b0ca-f72fbb563167",
+      "name": "Marcello Di Pierro",
+      "role": "Marketing Director",
+      "description": "I was looking for a Web professional who could create and evolve our companies website. Seun developed and definitely delivered what I was looking for. It's always a pleasure to work with him. I look forward to a great working relationship and friendship with him."
+    },
+    {
+      "id": "8d7dc53a-4273-41d8-b0ca-f72fbb563167",
+      "name": "Max Jeffrey",
+      "role": "CEO",
+      "description": "Always available to help, incredibly proficient, hits deadlines without fail, hard working and trustworthy. In my experience, no project is too much trouble, and with Seun you really get a rare entity – someone that can simplify what can be a very complex industry. I can recommend his services without hesitation."
+    },
+    {
+      "id": "8d7dc53a-4273-41d8-b0ca-f72fbb563167",
+      "name": "Yemi Adesina",
+      "role": "CEO",
+      "description": "Just thought I’d share something with you about my website. I have had so much positive feedback from friends and family on how great the site looks, and have also sold four books already this week direct from the website. Thanks for making it look so professional!"
+    }
+  ]
+}
