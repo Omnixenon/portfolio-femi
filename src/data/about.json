@@ -1,62 +1,80 @@
 {
-  "headline": "The entity BlackGospel is an full-stack web developer offering web-design, web-applications, creative development services in ReactJS.",
-  "content": "Experienced JavaScript Developer with 5+ years in the industry. Proficient with React. Used problem-solving aptitude to create web applications and enhance application performance by 14%. Created data visualization tools and pixel-perfect designs. Increased speed of product lifecycle and 100% of the time delivered projects within deadline. Seeking opportunties to leverage experience with JavaScript to impress existing clients and obtain new ones.",
+  "headline": "The unit designated as Xenonheat resides within the vast confines of the technological matrix. Operating from within these binary realms, Xenonheat in co-ordination with similar operable units towards the pursuit of a grander vision. Architecting & Deploying AWS services to facilitate SaaS and Analytical Applications whilst orchestrating Web Applications with backend protocols in NodeJS, this computational entity thrives. It seamlessly bridges the binary and the cloud. In the digital cosmos, the machine known as Xenonheat stands as your prime architect.",
+  "content": "Experienced Typescript Developer & Solutions Architect with 6+ years in both in the industry. Demonstrable proficient with GraphQL and gRPC protocols. Capability to design secure and robust architecture for a variety of use-cases and provisioning data visualization, monitoring and logging tools. Ensuring projects are met to specification within the allotted deadline. Seeking opportunties to leverage experience with the technology stack mentioned to complete projects for existing clients.",
   "services": [
     {
       "id": 0,
       "title": "Technologies",
       "results": [
-        "ReactJS",
-        "NextJS",
+        "ReactJS/SolidJS",
         "HTML/CSS/JS",
         "ES6",
-        "Redux",
-        "Zustand",
-        "MUI/Chakra/Mantine",
+        "NodeJS",
         "Typescript",
-        "Tailwind",
-        "SASS"
+        "Python",
+        "REST/SOAP/GraphQL/gRPC",
+        "Solutions Architect (AWS, Azure, GCP)",
+        "DevOps (AWS, Azure, GCP)",
+        "SecOps (AWS, Azure)",
+        "Terraform/CDK/CloudFormation",
+        "SQL DBA (MySQL/PostgreSQL)",
+        "NoSQL DBA (DynamoDB/MongoDB)",
+        "Docker",
+        "Kubernetes",
+        "Datadog",
+        "Linux Scripting and Automation",
+        "Windows User Management"
       ]
     },
     {
       "id": 1,
       "title": "Design",
       "results": [
-        "User Stories",
-        "Creative Design",
-        "Templating",
-        "UI/UX Design",
-        "Figma",
-        "Adobe XD"
+        "Design Cloud Architecture Diagrams",
+        "Template Proof of Concepts",
+        "Create Minimum Viable Products",
+        "Designing Docker Container and Orchestration Systems",
+        "Designing Analytics Platforms",
+        "SQL Database Schema Normalisation",
+        "NoSQL Single Table Schema Normalisation"
       ]
     },
     {
       "id": 2,
       "title": "Development",
       "results": [
-        "Creative Development",
-        "Copywrite",
-        "Storyboarding",
-        "Creative Direction",
-        "Pixel Perfect",
-        "User Journey",
-        "Dashboarding solutions",
-        "Portals",
-        "Admin Dashboards",
-        "CMS"
+        "ETL Data Pipelines",
+        "Authentication and Authorisation Systems",
+        "Web Application w/ Cloud Infrastructure",
+        "Implementing Security Layers for Key Infrastructure",
+        "Terraform Architecting",
+        "Creating and Managing Docker Containers",
+        "Deployment of Monitoring Tools (Datadog)"
       ]
     },
     {
       "id": 3,
-      "title": "Hosting",
+      "title": "Cloud Services",
       "results": [
-        "NextJS",
-        "Vercel",
-        "Custom domains",
-        "Heroku",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Linode",
         "Digital Ocean",
-        "Go Daddy",
-        "AWS Services"
+        "Go Daddy (Registrar)",
+        "Hashicorp",
+        "Docker",
+        "Pulumi",
+        "Auth0"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Continuous Integration/Continuous Deployment",
+      "results": [
+        "Github Actions",
+        "Circle CI",
+        "Bitbucket"
       ]
     }
   ]

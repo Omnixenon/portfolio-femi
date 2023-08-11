@@ -2,9 +2,9 @@
   "testimonials": [
     {
       "id": "8d7dc53a-4273-41d8-b0ca-f72fbb563167",
-      "name": "Marcello Di Pierro",
-      "role": "Marketing Director",
-      "description": "I was looking for a Web professional who could create and evolve our companies website. Seun developed and definitely delivered what I was looking for. It's always a pleasure to work with him. I look forward to a great working relationship and friendship with him."
+      "name": "Ben Marshelea",
+      "role": "Chief Technology Officer.",
+      "description": "A pleasure to work with. With a fundamental understanding of our tech stack, Femi worked excellently as part of our team maintaining and delivering what we expected. Pleasure to work with."
     },
     {
       "id": "8d7dc53a-4273-41d8-b0ca-f72fbb563167",
@@ -16,7 +16,19 @@
       "id": "8d7dc53a-4273-41d8-b0ca-f72fbb563167",
       "name": "Yemi Adesina",
       "role": "CEO",
-      "description": "Just thought I’d share something with you about my website. I have had so much positive feedback from friends and family on how great the site looks, and have also sold four books already this week direct from the website. Thanks for making it look so professional!"
+      "description": "Very quick work provided. Setup my custom address and email! Really appreciate the help."
+    },
+    {
+      "id": "8d7dc53a-4273-41d8-b0ca-f72fbb563167",
+      "name": "Dan Scott",
+      "role": "Project Manager",
+      "description": "I hired Femi from Upwork to help me with a Lambda script. Excellent and just what I needed. Although he overengineered the solution at first, he was quickly able to give me a more succint plug and play script that I can run on the console and on short notice."
+    },
+    {
+      "id": "8d7dc53a-4273-41d8-b0ca-f72fbb563167",
+      "name": "Kumal Singh",
+      "role": "CEO",
+      "description": "Really liked working with Femi. Got more than I asked. Helped me with some issues on GCP with a App function continued to provide me advice when needed. Will hopefully be using him more and more in the future."
     }
   ]
 }
