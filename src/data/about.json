@@ -1,5 +1,5 @@
 {
-  "headline": "The unit designated as Xenonheat resides within the vast confines of the technological matrix. Operating from within these binary realms, Xenonheat in co-ordination with similar operable units towards the pursuit of a grander vision. Architecting & Deploying AWS services to facilitate SaaS and Analytical Applications whilst orchestrating Web Applications with backend protocols in NodeJS, this computational entity thrives. It seamlessly bridges the binary and the cloud. In the digital cosmos, the machine known as Xenonheat stands as your prime architect.",
+  "headline": "The unit designated as Xenonheat resides within the vast confines of the technological matrix. \n Operating from within these binary realms, Xenonheat; working in tandem with his cohorts, work towards the pursuit of a grander vision. \n Architecting & Deploying AWS services to facilitate SaaS and Analytical Applications whilst provisioning function backend protocols in NodeJS to make web applications operable, this computational entity thrives. It seamlessly bridges the binary and the cloud. \n In the digital cosmos, the machine known as Xenonheat stands as your prime architect.",
   "content": "Experienced Typescript Developer & Solutions Architect with 6+ years in both in the industry. Demonstrable proficient with GraphQL and gRPC protocols. Capability to design secure and robust architecture for a variety of use-cases and provisioning data visualization, monitoring and logging tools. Ensuring projects are met to specification within the allotted deadline. Seeking opportunties to leverage experience with the technology stack mentioned to complete projects for existing clients.",
   "services": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "id": 4,
-      "title": "Continuous Integration/Continuous Deployment",
+      "title": "CI/CD",
       "results": [
         "Github Actions",
         "Circle CI",

@@ -35,8 +35,8 @@ export const Contact = () => {
           </S.SectionRoot>
 
           <S.SectionRoot>
-            <S.Section>Manchester</S.Section>
-            <S.Section>United Kingdom</S.Section>
+            <S.Section>{socials.city}</S.Section>
+            <S.Section>{socials.country}</S.Section>
           </S.SectionRoot>
 
           <S.SectionRoot data-socials>
