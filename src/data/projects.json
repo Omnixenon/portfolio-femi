@@ -55,12 +55,12 @@
         "To ensure the website works well on different devices and screen sizes, I also performed various tests to ensure compatibility and accessibility of the website across multiple devices, and browsers. Finally, I also provided training and documentation to the company's staff on how to update and manage the website, once it's deployed.",
         "In summary, as a web developer, I helped the company build a new website using Next.js, and React. I worked closely with the company to understand their goals and requirements, set up the development environment, built and integrated functional components, incorporated a headless CMS, made sure the website's SEO was in check, performed various tests for compatibility and accessibility and provided training to the company's staff on how to manage the website."
       ],
-      "url": "https://helloaltra.com",
+      "url": "https://documint.me",
       "meta": {
-        "client": "hello altra",
-        "genre": "social care",
-        "framework": "nextjs",
-        "styles": "tailwindcss",
+        "client": "josh mamroud",
+        "genre": "pdf generation",
+        "framework": "nodejs + react",
+        "styles": "nodejs",
         "year": "2022"
       },
       "menu": {
