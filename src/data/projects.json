@@ -1,14 +1,146 @@
 {
   "projects": [
     {
+      "id": "a1b2c3d4-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+      "name": ["service", "robotics"],
+      "description": [
+        "As Senior Full Stack Engineer and Senior Principal Cloud Engineer, I architected and deployed scalable cloud infrastructure for an enterprise health and social-care platform using AWS and Terraform, supporting data-intensive analytics workloads serving thousands of daily users across multiple client organizations.",
+        "I led infrastructure migration from monolithic EC2 architecture to microservices-based approach combining serverless (Lambda) and containerized services (ECS/Fargate), improving API response times by 60% and enabling independent scaling of critical components. Designed and implemented automated data pipeline infrastructure using Lambda scheduling with ACID-compliant ingestion processes, audit logging in DynamoDB, and full Infrastructure-as-Code deployment via Terraform for multiple client-facing analytics dashboards.",
+        "Managed PostgreSQL infrastructure at scale, renovating older architecture to modern practices of database compliance, implemented targeted indexing, partitioning strategies, and query optimization that reduced complex reporting endpoint load times from 8s to under 500ms. Established comprehensive CI/CD pipelines and automated testing culture using GitHub Actions, implementing unit tests (Jest), integration tests, and quality measures (ESLint, Prettier) that reduced production incidents by 40% and accelerated release cycles.",
+        "Built FastAPI backend services with proper error handling, request validation (Pydantic), and performance optimization for high-throughput analytics workloads. Implemented JWT-based authentication and role-based authorization (RBAC) across GraphQL and REST APIs, ensuring secure multi-tenant access patterns with audit trails for healthcare compliance requirements. Architected async event-driven workflows using SNS/SQS/Lambda patterns with rate limiting, guards, and CloudWatch observability for AI-powered conversational features (OpenAI/Claude APIs)."
+      ],
+      "url": "",
+      "meta": {
+        "client": "service robotics ltd",
+        "genre": "healthcare platform",
+        "framework": "fastapi + typescript",
+        "styles": "aws infrastructure",
+        "year": "2022-present"
+      },
+      "menu": {
+        "media": "/images/projects/service-robotics.jpg",
+        "path": "/projects/service-robotics"
+      }
+    },
+    {
+      "id": "b2c3d4e5-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+      "name": ["firemind", "consulting"],
+      "description": [
+        "As a Full-Stack Developer at Firemind, I architected and deployed AWS and Azure infrastructure for client engagements using Terraform (Infrastructure-as-Code), provisioning EC2, Lambda, Fargate, RDS, and S3 with security-first configurations ensuring consistency and scalability across environments.",
+        "Designed secure Python APIs using FastAPI and Node.js (Express) with RESTful endpoints including proper contract specifications, idempotency, pagination, and rate-limiting to ensure reliability under load. Consulted with clients on AWS and Azure infrastructure optimization, conducting security assessments and right-sizing initiatives that frequently led to expanded engagements due to client satisfaction.",
+        "Implemented Redis caching layer (AWS ElastiCache) for high-traffic endpoints, reducing repeated database reads and stabilizing session handling during peak loads with budget-conscious scheduled scaling. Built GraphQL APIs consolidating data from multiple backend services, reducing network overhead and enabling efficient client-side data fetching with field-level granularity.",
+        "Developed data pipeline and ETL infrastructure using AWS Redshift for analytics workloads on specific client projects. Managed CI/CD workflows and deployment automation across multiple client projects, establishing quality gates and testing strategies. Collaborated within Agile cross-functional teams, translating business requirements from stakeholders into pragmatic technical solutions and coordinating legacy system migrations to cloud-native architectures with minimal downtime."
+      ],
+      "url": "",
+      "meta": {
+        "client": "firemind ltd",
+        "genre": "cloud consulting",
+        "framework": "fastapi + express",
+        "styles": "aws + azure",
+        "year": "2018-2022"
+      },
+      "menu": {
+        "media": "/images/projects/firemind.jpg",
+        "path": "/projects/firemind"
+      }
+    },
+    {
+      "id": "c3d4e5f6-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+      "name": ["omnistats", "analytics"],
+      "description": [
+        "Architected data pipeline infrastructure to centralize multiple third-party sports data provider APIs, implementing intelligent caching layers and queue-backed asynchronous job processing for time-sensitive data updates.",
+        "Designed PostgreSQL schema with optimized indexing for high-throughput read patterns serving real-time odds and statistics, complemented by DynamoDB for flexible event data storage where appropriate for cost and performance.",
+        "Built scalable backend services handling thousands of concurrent API requests with rate-limiting, retry logic, and graceful degradation patterns typical of pragmatic startup environments balancing feature velocity with system reliability.",
+        "Deployed using Infrastructure as Code (Terraform) with automated CI/CD pipelines ensuring consistent, repeatable deployments across environments."
+      ],
+      "url": "https://omnistats.bet",
+      "meta": {
+        "client": "omnistats",
+        "genre": "sports analytics",
+        "framework": "python + nodejs",
+        "styles": "aws infrastructure",
+        "year": "2023"
+      },
+      "menu": {
+        "media": "/images/projects/omnistats.jpg",
+        "path": "/projects/omnistats"
+      }
+    },
+    {
+      "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+      "name": ["documint", "generation"],
+      "description": [
+        "Designed and implemented serverless data pipeline using AWS Lambda to transform and generate large-scale PDFs (100+ pages), streaming output directly to S3 to prevent client-side memory issues and timeout failures.",
+        "Architected event-driven workflow using SQS queues for reliable async processing, handling backpressure during peak loads and enabling horizontal scaling without infrastructure management overhead.",
+        "Reduced client memory consumption by 90% and stabilized long-running document operations by offloading compute-intensive work to Lambda functions with proper error handling and retry mechanisms.",
+        "Deployed using Serverless Framework and Terraform with comprehensive IAM policies following principle of least privilege for security best practices."
+      ],
+      "url": "https://documint.me",
+      "meta": {
+        "client": "documint",
+        "genre": "document generation",
+        "framework": "nodejs + lambda",
+        "styles": "serverless",
+        "year": "2022"
+      },
+      "menu": {
+        "media": "/images/projects/documint.jpg",
+        "path": "/projects/documint"
+      }
+    },
+    {
+      "id": "e5f6g7h8-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+      "name": ["scalexa", "devops"],
+      "description": [
+        "Led cloud migration initiatives for clients transitioning workloads to AWS and Azure, establishing maintainable infrastructure foundations using Terraform (Infrastructure as Code) for repeatable, version-controlled provisioning.",
+        "Built robust CI/CD pipelines using Azure DevOps and AWS CodePipeline with automated testing gates, quality checks, and multi-environment deployment strategies enabling faster, safer releases.",
+        "Implemented baseline observability using Datadog and Prometheus for application monitoring, log aggregation, and alerting—critical for understanding system health in production and responding to incidents proactively.",
+        "Developed NestJS backend microservices (modules, controllers, providers) with standardized testing patterns, implementing guards and interceptors for authentication, validation, and caching middleware to establish engineering best practices. Worked pragmatically with ambiguous requirements typical of early-stage companies, balancing technical debt against business velocity while maintaining system stability and security."
+      ],
+      "url": "",
+      "meta": {
+        "client": "scalexa",
+        "genre": "cloud migration",
+        "framework": "nestjs + python",
+        "styles": "aws + azure",
+        "year": "2021"
+      },
+      "menu": {
+        "media": "/images/projects/scalexa.jpg",
+        "path": "/projects/scalexa"
+      }
+    },
+    {
+      "id": "f6g7h8i9-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+      "name": ["velents", "events"],
+      "description": [
+        "Hardened production AWS deployment infrastructure and standardized CI/CD workflows using Make and pipeline automation, significantly improving release reliability and rollback procedures.",
+        "Resolved critical production issues including Java runtime configuration, SSL certificate chain validation, and DNS routing problems—demonstrating ability to debug complex systems under pressure.",
+        "Implemented transactional email infrastructure using Mailgun and AWS SES with proper deliverability configuration (SPF, DKIM, DMARC), stabilizing key user notification flows and reducing bounce rates.",
+        "Deployed infrastructure improvements using Terraform ensuring reproducible environments and reducing manual configuration drift."
+      ],
+      "url": "",
+      "meta": {
+        "client": "velents",
+        "genre": "event management",
+        "framework": "java + nodejs",
+        "styles": "aws infrastructure",
+        "year": "2020"
+      },
+      "menu": {
+        "media": "/images/projects/velents.jpg",
+        "path": "/projects/velents"
+      }
+    },
+    {
       "id": "185ae686-51cf-4a6d-be7a-bee0929f5fe8",
       "name": ["powerplay", "brands"],
       "description": [
-        "As a web developer, I helped a high-end fashion brand with their website redesign to increase website traffic and showcase their new seasonal clothes. The process began with a consultation with the brand to understand their goals and requirements for the website. I worked closely with them to gather information about their target audience and the features they wanted to include on the website. Once we had a clear understanding of the project requirements, I began the process of redesigning the website. One of the main focus was to create a visually appealing and user-friendly website that would showcase the brand's new seasonal collections in the best possible way. This was achieved by using high-quality images and videos, and by implementing a clean, modern, and minimalistic design aesthetic that would appeal to the brand's target audience.",
+        "As a backend developer, I supplemented a high-end fashion brand's development team with their website redesign to increase website traffic and showcase their new seasonal clothes. The process began with a consultation with the brand to understand their goals and requirements for the website. I worked closely with them to gather information about their target audience and the features they wanted to include on the website. Once we had a clear understanding of the project requirements, I began the process of redesigning the website. One of the main focuses was to create a visually appealing and user-friendly website that would showcase the brand's new seasonal collections in the best possible way. This was achieved by using high-quality images and videos, and by implementing a clean, modern, and minimalistic design aesthetic that would appeal to the brand's target audience.",
         "I also worked to improve the website's navigation, making it easy for users to find the information they needed, and to discover new products. This was done by using clear, intuitive labels for the website's main sections, and by implementing a search function, as well as a filter system, that would allow users to easily find products based on various criteria.",
         "Another important aspect of the redesign was improving the website's search engine optimization (SEO), in order to increase website traffic and visibility in search engine results. This was done by optimizing the website's code, meta data, and creating unique and high-quality content.",
-        "Finally, in order to make it easy for the brand to update their website and showcase new products, I implemented a modern Content Management System (CMS) that would allow them to easily update the website with new products, promotions, and other relevant information. I also provided training to the brand's staff on how to use the new CMS, and how to update the website.",
-        "In summary, I helped the high-end fashion brand with their website redesign to increase website traffic and showcase their new seasonal clothes. I worked closely with the brand to understand their goals and requirements, created visually appealing and user-friendly website, improved the website's navigation, and search engine optimization, implemented a modern CMS, and provided training to the brand's staff on how to use the new CMS and how to update the website."
+        "Finally, in order to make it easy for the brand to update their website and showcase new products, I implemented a modern Content Management System (CMS) that would allow them to easily update the website with new products, promotions, and other relevant information. I also provided training to the brand's staff on how to use the new CMS and how to update the website.",
+        "In summary, I helped the high-end fashion brand with their website redesign to increase website traffic and showcase their new seasonal clothes. I worked closely with the brand to understand their goals and requirements, created a visually appealing and user-friendly website, improved the website's navigation and search engine optimization, implemented a modern CMS, and provided training to the brand's staff on how to use the new CMS and how to update the website."
       ],
       "url": "https://powerplaybrands.com",
       "meta": {
@@ -29,8 +161,8 @@
       "description": [
         "As a web developer, I helped a farming company build a new website to increase their exposure and improve accessibility in developing countries. The process began with a thorough research on the specific needs of farmers and agricultural businesses in developing countries, including internet connectivity, language, and device capabilities. I then worked closely with the company to understand their goals and requirements for the website, and gathered information about their target audience. Based on this information, I developed a strategy for the website redesign that focused on creating a lightweight, fast-loading website that would be easy to access and navigate, even on low-bandwidth connections.",
         "To achieve this, I used techniques such as optimizing images and code for faster load times, implementing a responsive design to ensure that the website would display correctly on a wide range of devices and screen sizes, and incorporating support for multiple languages to make the website accessible to a wider audience. In order to make the website more valuable for the target audience, I incorporated features such as weather updates, crop prices and market information, to give farmers access to the information they need to make informed decisions. I also implemented a section dedicated to sharing tips and best practices for farming in developing countries, which would give farmers access to valuable knowledge and resources.",
-        "In order to improve the website's SEO and make it more visible to search engines, I made sure that the website was properly structured and optimized for search engines, incorporated meta tags and other SEO strategies, and I also implemented google analytics and webmaster tools, to monitor the website's performance. To ensure that the company's staff can manage and update the website efficiently, I implemented a modern CMS that allows for easy updates and management of the website. I also provided training and documentation to the company's staff on how to use the new CMS and how to update the website.",
-        "In summary, as a web developer, I helped the farming company build a new website to increase their exposure and improve accessibility in developing countries by conducting research on the specific needs of farmers and agricultural businesses in developing countries, focusing on creating a lightweight, fast-loading, and responsive website that is easy to access and navigate even on low-bandwidth connections, incorporating support for multiple languages and features such as weather updates, crop prices, market information, and best practices. I also implementing SEO, monitoring tools and providing training on the company's staff on how to use the new CMS."
+        "In order to improve the website's SEO and make it more visible to search engines, I made sure that the website was properly structured and optimized for search engines, incorporated meta tags and other SEO strategies, and I also implemented Google Analytics and webmaster tools to monitor the website's performance. To ensure that the company's staff can manage and update the website efficiently, I implemented a modern CMS that allows for easy updates and management of the website. I also provided training and documentation to the company's staff on how to use the new CMS and how to update the website.",
+        "In summary, as a web developer, I helped the farming company build a new website to increase their exposure and improve accessibility in developing countries by conducting research on the specific needs of farmers and agricultural businesses in developing countries, focusing on creating a lightweight, fast-loading, and responsive website that is easy to access and navigate even on low-bandwidth connections, incorporating support for multiple languages and features such as weather updates, crop prices, market information, and best practices. I also implemented SEO, monitoring tools and provided training to the company's staff on how to use the new CMS."
       ],
       "url": "https://pristinefarming.com",
       "meta": {
@@ -53,7 +185,7 @@
         "Once we had a clear understanding of the project requirements, I began the process of setting up the Next.js framework and configuring the development environment. I used the framework's features such as server-side rendering and automatic code splitting to ensure that the website would load quickly and provide a seamless user experience. I also incorporated React hooks and functional components to build the website's components, making the code more maintainable and readable, and I used Next.js's built-in development tools such as hot reloading and error reporting to make the development process more efficient.",
         "In order to improve the website's search engine optimization (SEO), I also integrated Next.js with a headless CMS that would allow the company to easily update and manage the website's content. I also integrated other technologies like analytics, tracking, and webmaster tools, to monitor the website's performance.",
         "To ensure the website works well on different devices and screen sizes, I also performed various tests to ensure compatibility and accessibility of the website across multiple devices, and browsers. Finally, I also provided training and documentation to the company's staff on how to update and manage the website, once it's deployed.",
-        "In summary, as a web developer, I helped the company build a new website using Next.js, and React. I worked closely with the company to understand their goals and requirements, set up the development environment, built and integrated functional components, incorporated a headless CMS, made sure the website's SEO was in check, performed various tests for compatibility and accessibility and provided training to the company's staff on how to manage the website."
+        "In summary, as a web developer, I helped the company build a new website using Next.js and React. I worked closely with the company to understand their goals and requirements, set up the development environment, built and integrated functional components, incorporated a headless CMS, made sure the website's SEO was in check, performed various tests for compatibility and accessibility, and provided training to the company's staff on how to manage the website."
       ],
       "url": "https://documint.me",
       "meta": {

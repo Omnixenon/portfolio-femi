@@ -1,29 +1,26 @@
 {
-  "headline": "The unit designated as Xenonheat resides within the vast confines of the technological matrix. \n Operating from within these binary realms, Xenonheat; working in tandem with his cohorts, work towards the pursuit of a grander vision. \n Architecting & Deploying AWS services to facilitate SaaS and Analytical Applications whilst provisioning function backend protocols in NodeJS to make web applications operable, this computational entity thrives. It seamlessly bridges the binary and the cloud. \n In the digital cosmos, the machine known as Xenonheat stands as your prime architect.",
-  "content": "Experienced Typescript Developer & Solutions Architect with 6+ years in both in the industry. Demonstrable proficient with GraphQL and gRPC protocols. Capability to design secure and robust architecture for a variety of use-cases and provisioning data visualization, monitoring and logging tools. Ensuring projects are met to specification within the allotted deadline. Seeking opportunties to leverage experience with the technology stack mentioned to complete projects for existing clients.",
+  "headline": "The unit designated as Xenonheat resides within the vast confines of the technological matrix. \n Operating from within these binary realms, Xenonheat; working in tandem with his cohorts, works toward the pursuit of a greater vision. A grander vision if you would. \n Architecting & Deploying AWS services to facilitate SaaS applications, provisioning backend protocols in Python & NodeJS, aid in front-end web deployment strategies and improving featuresets. Given this, I, computational entity, thrives. I seamlessly bridge the binary and the cloud. \n In the digital cosmos, the machine known as Xenonheat stands as your prime architect.",
+  "content": "Experienced Typescript/Python Developer & Solutions Architect with 8+ years in both in the industry. Demonstrably proficient in RESTm GraphQL and gRPC protocols. Capability to design secure and robust architecture, provision data visualization and streamline data workflows to accomodate and setup monitoring and logging tools like Prometheus and Datadog. I ensure projects are met to specification within the allotted deadline. Seeking opportunties to leverage experience with the technology stacks mentioned for contract and permanent roles.",
   "services": [
     {
       "id": 0,
       "title": "Technologies",
       "results": [
-        "ReactJS/SolidJS",
-        "HTML/CSS/JS",
-        "ES6",
-        "NodeJS",
-        "Typescript",
-        "Python",
-        "REST/SOAP/GraphQL/gRPC",
+        "ReactJS/SolidJS/HTML/CSS/JS/AngularJS/VueJS",
+        "NodeJS/JavaScript/TypeScript/ExpressJS",
+        "Python/FastAPI/Django/Flask",
+        "C#/.NET",
+        "REST/GraphQL/gRPC",
         "Solutions Architect (AWS, Azure, GCP)",
         "DevOps (AWS, Azure, GCP)",
         "SecOps (AWS, Azure)",
         "Terraform/CDK/CloudFormation",
-        "SQL DBA (MySQL/PostgreSQL)",
+        "SQL DBA (MySQL/PostgreSQL/SQL Server)",
         "NoSQL DBA (DynamoDB/MongoDB)",
         "Docker",
         "Kubernetes",
         "Datadog",
-        "Linux Scripting and Automation",
-        "Windows User Management"
+        "Linux Scripting and Automation"
       ]
     },
     {
@@ -32,7 +29,7 @@
       "results": [
         "Design Cloud Architecture Diagrams",
         "Template Proof of Concepts",
-        "Create Minimum Viable Products",
+        "Create Minimum Viable Products (MVPs)",
         "Designing Docker Container and Orchestration Systems",
         "Designing Analytics Platforms",
         "SQL Database Schema Normalisation",
@@ -61,6 +58,8 @@
         "GCP",
         "Linode",
         "Digital Ocean",
+        "Authentication and Authorisation Systems",
+        "Vultr",
         "Go Daddy (Registrar)",
         "Hashicorp",
         "Docker",
@@ -74,7 +73,10 @@
       "results": [
         "Github Actions",
         "Circle CI",
-        "Bitbucket"
+        "Bitbucket",
+        "Jenkins",
+        "Azure DevOps",
+        "AWS CodePipeline"
       ]
     }
   ]
